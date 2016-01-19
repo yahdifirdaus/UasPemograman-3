@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:background="#000000"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+           android:textColor="#FFFFFF"
+        android:text="Login Yahdi Firdaus (4513210036)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtuser"
+        android:layout_below="@+id/txtuser"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+           android:textColor="#FFFFFF"
+        android:inputType="textPassword"
+        android:text="Password" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+           android:textColor="#FFFFFF"
+        android:layout_alignLeft="@+id/txtpassword"
+        android:layout_below="@+id/txtpassword"
+        android:layout_marginTop="38dp"
+        android:text="Login" />
+
+    <EditText
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+           android:textColor="#FFFFFF"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:text="Username" />
+
+</RelativeLayout>
